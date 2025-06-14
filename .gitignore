@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+package-lock.json # If you prefer to only commit package.json and let CI/CD generate the lock file
+# pnpm-lock.yaml # If using pnpm
+
+# Environment Variables
+.env
+!.env.example # If you have an example env file, don't ignore it
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Build output (if you transpile, e.g., TypeScript to JavaScript)
+# dist/
+# build/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Optional: User-specific files
+.swp # Vim swap files
