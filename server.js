@@ -20,12 +20,12 @@ const app = express();
 require('./config/middleware')(app);
 
 // --- CORS Configuration ---
-// Define allowed origins. Replace 'https://your-frontend-app-name.vercel.app'
-// with your actual Vercel frontend URL once deployed.
+// Define allowed origins.
 const allowedOrigins = [
   'http://localhost:5173', // Vite dev server (adjust port if different)
   'http://localhost:3000', // Common React dev server port
-  'https://your-frontend-app-name.vercel.app' // Placeholder for your Vercel URL
+  'https://frontend-rrlc-qr-scavenger-hunt.vercel.app', // Placeholder for your Vercel URL
+  'https://frontend-rrlc-qr-scavenger-hunt.vercel.app/', // Placeholder for your Vercel URL with trailing slash
 ];
 
 const corsOptions = {
